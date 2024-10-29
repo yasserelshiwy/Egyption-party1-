@@ -1,0 +1,146 @@
+body {
+  font-family: "Merienda", cursive;
+}
+
+/* !nav-left section */
+.left-nav {
+  z-index: 999999;
+  left: -262.766px;
+}
+.button-nav {
+  top: 287px;
+  left: 265px;
+  background-color: rgb(82, 0, 0);
+  color: #fff;
+  border: none;
+  padding: 7px 15px;
+  border-radius: 19px;
+  transition: all 400ms;
+}
+
+.button-nav:hover {
+  transform: translate(10px);
+}
+
+.left-nav h2 {
+  font-family: "Permanent Marker", cursive;
+  color: #f44336;
+  font-size: 30px;
+  padding: 25px;
+}
+.left-nav p {
+  padding-left: 22px;
+  font-size: 16px;
+  color: #fff;
+}
+.left-nav ul li {
+  margin-bottom: 20px;
+  padding-block: 20px;
+  width: 0;
+  text-wrap: nowrap;
+  transition: all 1s;
+}
+.left-nav ul li:hover {
+  background-color: #fff;
+  width: 100%;
+}
+.left-nav ul li:hover a {
+  color: #f44336;
+}
+.left-nav ul li a {
+  color: rgb(241, 210, 210);
+  font-size: 19px;
+  padding: 20px;
+  font-weight: 900;
+}
+/* !header section */
+header {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0.5),
+      rgba(255, 0, 0, 0.5)
+    ),
+    url(../imag/events-heavenly-header.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+header .inner h1 {
+  font-size: 3.75rem;
+  margin-top: -100px;
+  font-family: "Monoton", sans-serif;
+}
+header .inner p {
+  font-size: 16px;
+}
+
+/* * section - Details */
+.details {
+  margin-block: 100px;
+}
+.contant button {
+  font-size: 28px;
+  padding: 5px;
+  color: #fff;
+  background-color: rgb(126 0 0);
+  border: none;
+  transition: all 400ms;
+}
+.contant button:hover {
+  background-color: rgb(82, 0, 0);
+}
+.contant .card {
+  background-color: rgba(253, 213, 220, 0.795);
+}
+.contant p {
+  padding: 20px;
+  display: none;
+  margin: 0;
+}
+.contant .card-1 {
+  display: block;
+}
+/* * section - Duration */
+.Duration {
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 0.5),
+      rgba(255, 0, 0, 0.5)
+    ),
+    url(../imag/invitation-2508607__340.jpg);
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  margin-block: 100px !important;
+}
+.Duration .row .inner {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 42px;
+  font-size: 30px;
+}
+.col-3 {
+  padding: 0;
+}
+
+/* * section - contact*/
+.social-icon a {
+  color: black;
+  border: 1px solid black;
+  padding: 7px;
+}
+.social-icon a:hover {
+  color: #fff;
+  background-color: #d62e33;
+  border: 1px solid #d62e33;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #f44336;
+  outline: 0;
+  box-shadow: 0 0 0 0.15rem rgb(126 0 0 / 25%);
+}
+textarea.form-control {
+  min-height: 150px;
+}
